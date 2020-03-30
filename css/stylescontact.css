@@ -1,0 +1,267 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #eee;
+  background: #ebfafa;
+  line-height: 1.2;
+}
+
+header {
+  background: #eee; 
+}
+
+ul {
+  margin-top: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+a  {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.logo {
+  background: #eee;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  
+}
+
+.logo a {
+  border-radius:;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  
+}
+
+.hero {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: #33cccc;
+  color: #000;
+  text-align: center;
+  padding: 1vh 1em;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+h1 {
+   color: #fff; 
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+   padding-top: 30px;
+   font-size: 100px; 
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: 0px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 450px;
+    padding:30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    overflow: hidden; 
+}
+
+textarea{
+    background: rgba(0, 0, 0, 0.4); 
+    height: 110px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.nameinput, .emailinput {
+    width: auto;
+    height: 48px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input.nameinput {
+    background: rgba(0, 0, 0, 0.4); 
+    padding-left: 45px;
+}
+
+input.emailinput {
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
+}
+
+input.message {
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
+}
+
+select.indent {
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+    color: #fff; 
+}
+
+input:focus, textarea:focus { 
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    overflow: hidden; 
+}
+
+.btn {
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  width: 200px;
+  height: 48px;
+  color: #000;
+  background: #eee;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+  outline: none;
+  box-shadow: 0 6px #cecece;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+
+.btn:hover {
+  background: #fff;
+  outline: none;
+  box-shadow: 0 4px #cecece;
+  top: 2px;
+}
+
+.btn:active {
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 #cecece;
+  top: 6px;
+}
+
+.flat {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.flat:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+.flat {
+   width: 960px !important;
+   height: 48px;
+   overflow: hidden;
+   margin-bottom: 20px;
+   background: url(http://www.jordancundiff.com/wp-content/uploads/2014/03/icon-dropdown.png) no-repeat right;
+   }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
