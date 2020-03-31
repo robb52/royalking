@@ -61,39 +61,6 @@ a  {
   padding: 1vh 1em;
 }
 
-.container {
-  border-radius: 5px;
-  border: 2px solid black;
-  width: 50%;
-  margin-top: 4em;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.contact-form {
-  display: grid;
-  padding: 2em;
-}
-
-label {
-    font-weight: 700;
-}
-
-input,
-textarea {
-  padding: 1em;
-    }
-
-textarea {
-    
-}
-
-button {
-  
-  padding: 2em 4em;
-}
-
-
 #form-main{
   width:100%;
   float:left;
@@ -174,7 +141,7 @@ input:focus, textarea:focus {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  margin-top:-4px;
+  margin-top: 1em;
   font-weight:300;
 }
 
@@ -216,6 +183,7 @@ input:focus, textarea:focus {
 }
 
 div.footer-label {
+  margin-top: 2em;
   color: #000;
   text-align: center;
 }
