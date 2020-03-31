@@ -12,19 +12,143 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  color: #eee;
-  background: #ebfafa;
+  background: lightgrey;
   line-height: 1.6;
 }
 
 header {
-  background-image: url(../images/mandala.jpg);
-  background-size: 57px 57px;
-  padding: 2px;
+  background: #4d194d;
+  padding: 8px;
 }
 
 img {
   max-width: 100%;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: ;
+}
+
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  color: #fff;
+  padding: .3em 1.5em;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #e60000;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.entro {
+  text-transform: uppercase;
+  margin: 5px;
+  letter-spacing: 2px;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;}
+
+.logo {
+  margin: 0;
+  font-size: 3rem;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.logo a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1vh 1em;
+}
+
+.back-btn {
+  list-style: none;
+}
+
+i.fas.fa-hand-point-left {
+  font-size: 3em;
+  text-decoration: none;
+  margin-left: .75em;
+  color: #000;
+}
+
+i.fas.fa-hand-point-left:hover {
+  color: #e60000;
 }
 
 .product-card-title {
@@ -36,46 +160,10 @@ img {
   align-items: center;
 }
 
-.logo {
-  font-family: 'DM Sans', sans-serif;
-  text-align: center;
-  padding: .05em 0;
-}
-
-.logo a {
-  border-radius: 5px;
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: #000;
-  background: #fff;
-  opacity: .85;
-}
-
-.hero {
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
-  background: #33cccc;
-  color: #000;
-  text-align: center;
-  padding: 1vh 1em;
-}
-
-i.fas.fa-hand-point-left {
-  font-size: 2.5em;
-  text-decoration: none;
-  list-style: none;
-  margin-left: .75em;
-  color: #1f7a7a;
-}
-
-i.fas.fa-hand-point-left:hover {
-  color: #33cccc;
-}
-
 .products {
   padding: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns:  1fr 1fr 1fr;
   grid-gap: 2em;
   justify-content: center;
   align-items: center;
@@ -89,6 +177,7 @@ i.fas.fa-hand-point-left:hover {
 
 .product-card,
 .product-card-info {
+  letter-spacing: 1px;
   background: #fff;
   color: #000;
   padding: 1em;
@@ -98,15 +187,9 @@ i.fas.fa-hand-point-left:hover {
   margin-bottom: 2em;
 }
 
-@media (min-width: 1000px) {
-  .product-card:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:400px;
-    height:auto;
-    display:block;
-    z-index:999;
+@media (max-width: 600px) {
+ .products {
+  grid-template-columns: 1fr;
   }
 }
 
@@ -118,11 +201,10 @@ i.fas.fa-hand-point-left:hover {
 
 .footer-label {
   color: #000;
-  border-top: 2px solid #000;
   text-align: center;
   margin-top: 4em;
   padding: 2em;
-  background: #33cccc; 
+  background: ; 
 }
 
 
