@@ -20,7 +20,7 @@ body {
 }
 
 header {
-   background: #4d194d;
+  background: #4d194d;
   padding: 8px; 
 }
 
@@ -38,7 +38,7 @@ a  {
 
 .info {
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .logo {
@@ -46,8 +46,6 @@ a  {
   font-size: 3rem;
   text-align: center;
   color: #fff;
-  padding: 0;
-  
 }
 
 .logo a {
@@ -56,19 +54,20 @@ a  {
   text-decoration: none;
   color: #fff;
 }
+
+.logo a:hover {
+  color: #D8BFD8;
+}
   
 .hero {
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
-  background: #33cccc;
-  color: #000;
+  background: #000;
   text-align: center;
   padding: 1vh 1em;
 }
 
 #form-main{
+  display: grid;
   width:100%;
-  
   padding-top:0px;
 }
 
