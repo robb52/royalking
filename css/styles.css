@@ -113,6 +113,12 @@ a:hover {
   color: #000;
 }
 
+.title {
+  text-align: center;
+  font-size: 1.3em;
+  color: #4E166F;
+}
+
 .footer-label {
   color: #000;
   text-align: center;
