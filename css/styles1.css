@@ -169,6 +169,13 @@ h3.product-card-title {
   margin-bottom: 2em;
 }
 
+@media (max-width: 1074px) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
 @media (max-width: 600px) {
  .products {
   grid-template-columns: 1fr;
