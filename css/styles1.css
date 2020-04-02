@@ -127,6 +127,10 @@ p {
   color: #fff;
 }
 
+.logo a:hover {
+  color: #D8BFD8;
+}
+
 .hero {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
@@ -200,7 +204,7 @@ i.fas.fa-hand-point-left {
 }
 
 i.fas.fa-hand-point-left:hover {
-  color: #e60000;
+  color: #830ba6;
 }
 
 .product-card-title {
