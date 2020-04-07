@@ -186,6 +186,14 @@ h3.product-card-title {
   }
 }
 
+.refd {
+  font-size: .7em;
+  text-align: center;
+  color: red;
+  margin-right: 30px;
+ 
+}
+
 .product-card-title {
   margin: 0;
   font-size: 1.5rem;
