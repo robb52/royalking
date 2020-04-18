@@ -36,6 +36,19 @@ a  {
   font-size: 2rem;
 }
 
+p {
+  font-size: 1.125rem;
+  width: 50%;
+  margin: 10px auto; 
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+span {
+  color: yellow;
+  font-weight: bold;
+}
+
 .info {
   text-align: center;
   color: #fff;
