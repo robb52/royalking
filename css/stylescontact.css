@@ -49,6 +49,10 @@ span {
   font-weight: bold;
 }
 
+.discount {
+  text-transform: uppercase;
+}
+
 .info {
   text-align: center;
   color: #fff;
@@ -198,8 +202,9 @@ input:focus, textarea:focus {
   }
 }
 
-div.footer-label {
+.footer-label {
   margin-top: 2em;
+  
   color: #000;
   text-align: center;
 }
