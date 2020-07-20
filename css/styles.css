@@ -42,6 +42,11 @@ a:hover {
   color: #ffcccc;
 }
 
+.cart {
+  text-align: right;
+  margin-top: -20px;
+}
+
 .entro {
   text-transform: uppercase;
   margin: 0;
