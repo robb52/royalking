@@ -228,4 +228,20 @@ i.fas.fa-hand-point-left:hover {
   background: ; 
 }
 
+.button {
+  text-decoration: none;
+ 
+ padding: .5em 1.5em;
+ border-radius: 50px;
+ margin-left: 40%;
+ background: #4d194d;
+ color: #fff;
+}
+
+.button:hover {
+  background: #fff;
+  color: #4d194d;
+  border: 1px solid #4d194d;
+}
+
 
